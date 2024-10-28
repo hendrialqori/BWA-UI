@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="max-w-7xl mx-auto min-h-[1000px] font-inter">
+        <!-- header -->
+        <header class="px-[62px] py-10 flex items-center gap-24">
+            <!-- logo -->
+            <div class="mr-9 border" aria-label="logo">
+                <img src="./assets/image/logo.png" width="44" height="44" alt="logo" />
+            </div>
+            <!-- end logo -->
+
+            <!-- navigation -->
+            <ul class="flex gap-x-11" aria-label="navigation" role="navigation">
+                <li>
+                    <p>Home</p>
+                </li>
+                <li class="flex items-center gap-x-2">
+                    <p>Jual Mobil</p>
+                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.96001 4.97498L6.70001 8.23498C6.31501 8.61998 5.68501 8.61998 5.30001 8.23498L2.04001 4.97498"
+                            stroke="#2F3137" stroke-opacity="0.5" stroke-width="0.75" stroke-miterlimit="10"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+                <li class="flex items-center gap-x-2">
+                    <p>Beli Mobil</p>
+                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.96001 4.97498L6.70001 8.23498C6.31501 8.61998 5.68501 8.61998 5.30001 8.23498L2.04001 4.97498"
+                            stroke="#2F3137" stroke-opacity="0.5" stroke-width="0.75" stroke-miterlimit="10"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+            </ul>
+            <!-- end navigation -->
+
+            <!-- input search -->
+            <div class="relative max-w-[268px]" aria-label="input-search">
+                <input type="text"
+                    class="w-full bg-[#FAFAFA] p-3 border border-[#F0F0F0] rounded-full placeholder:text-[#636569]"
+                    placeholder="Search..">
+                <div
+                    class="absolute top-1/2 -translate-y-1/2 right-2 bg-[#3775F1] size-[30.4px] rounded-full grid place-items-center input_search_icon_shadow">
+                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7.50002 13.4C10.648 13.4 13.2 10.848 13.2 7.7C13.2 4.55198 10.648 2 7.50002 2C4.352 2 1.80002 4.55198 1.80002 7.7C1.80002 10.848 4.352 13.4 7.50002 13.4Z"
+                            stroke="white" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M13.8 14L12.6 12.8" stroke="white" stroke-width="0.9" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <!-- end input search -->
+        </header>
+        <!-- end header -->
+
+        <!-- banner -->
+        <section class="relative w-full h-[546px]" aria-label="banner">
+            <!-- image -->
+            <img src="./assets/image/Gambar Mobil.png" class="w-full object-contain z-[1]" alt="banner" />
+            <!-- end image -->
+
+            <!-- slide action -->
+            <button
+                class="absolute top-1/2 -translate-y-1/2 right-[50px] z-10 size-[60px] rounded-full bg-[#2F3137]/20 flex justify-center items-center"
+                aria-label="slide-action">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.395 23.24L18.0016 15.6333C18.9 14.735 18.9 13.265 18.0016 12.3667L10.395 4.76001"
+                        stroke="white" stroke-width="1.75" stroke-miterlimit="10" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <!-- slide action -->
+            </button>
+
+            <div
+                class="absolute p-3 bottom-4 left-1/2 -translate-x-1/2 flex gap-5 bg-white/[12%] backdrop-blur-[10px] rounded-full">
+                <img src="./assets/image/p-1.png" width="70" height="70" class="size-[70px]" />
+                <img src="./assets/image/p-2.png" width="70" height="70" class="size-[70px]" />
+                <img src="./assets/image/p-3.png" width="70" height="70" class="size-[70px]" />
+                <img src="./assets/image/p-4.png" width="70" height="70" class="size-[70px]" />
+                <img src="./assets/image/p-5.png" width="70" height="70" class="size-[70px]" />
+                <div class="rounded-full size-[70px] bg-white/[12%] grid place-items-center">
+                    <p class="font-medium text-xl text-white">10+</p>
+                </div>
+            </div>
+
+            <!-- end banner -->
+        </section>
+        <!-- end banner -->
+
+        <!-- content -->
+        <section class="max-w-[955px] mx-auto py-9 space-y-[50px]">
+            <!-- title information -->
+            <div class="flex flex-col gap-y-8" aria-label="title-information">
+                <ul class="flex gap-x-4 text-sm text-[#97989B]" aria-label="breadcrumbs">
+                    <li>Home</li>
+                    <li>/</li>
+                    <li>Search</li>
+                    <li>/</li>
+                    <li>Results</li>
+                    <li>/</li>
+                    <li>BMW</li>
+                    <li>/</li>
+                    <li>
+                        <p class="font-bold text-black">4 Series</p>
+                    </li>
+                </ul>
+                <h1 class="text-5xl font-medium">2018 BMW M4 3.0 Coupe Yellow Edition</h1>
+                <div class="flex items-center gap-x-5">
+                    <h1 class="text-[44px] font-bold">
+                        <span class="text-[#2F3137]/40"> Rp </span>1,100,000,000
+                    </h1>
+                    <div class="bg-[#3775F1]/5 border border-[#3775F1] rounded-full w-max py-3 px-4">
+                        <p class="text-xl font-medium text-[#3775F1]">Negotiable</p>
+                    </div>
+                </div>
+                <div
+                    class="bg-[#2F3137]/[1.5%] border border-[#F0F0F0] px-5 py-2 rounded-full flex items-center justify-between">
+                    <div class="flex items-center gap-x-3" aria-label="calendar-icon">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 2.5V5.5" stroke="#949698" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M16 2.5V5.5" stroke="#949698" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3.5 9.59H20.5" stroke="#949698" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 9V17.5C21 20.5 19.5 22.5 16 22.5H8C4.5 22.5 3 20.5 3 17.5V9C3 6 4.5 4 8 4H16C19.5 4 21 6 21 9Z"
+                                stroke="#949698" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M11.9955 14.2H12.0045" stroke="#949698" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8.29431 14.2H8.30329" stroke="#949698" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8.29431 17.2H8.30329" stroke="#949698" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <p class="text-[#7D7E82]">Published on 20/06/2024</p>
+                    </div>
+                    <div class="flex items-center gap-x-6">
+                        <div class="bg-[#2F3137]/[3%] border border-[#2F3137]/[12%] p-[6px] rounded-full"
+                            aria-label="love-icon">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.70499 16.1075C9.44999 16.1975 9.02999 16.1975 8.77499 16.1075C6.59999 15.365 1.73999 12.2675 1.73999 7.0175C1.73999 4.7 3.60749 2.825 5.90999 2.825C7.27499 2.825 8.48249 3.485 9.23999 4.505C9.99749 3.485 11.2125 2.825 12.57 2.825C14.8725 2.825 16.74 4.7 16.74 7.0175C16.74 12.2675 11.88 15.365 9.70499 16.1075Z"
+                                    stroke="#949698" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="bg-[#2F3137]/[3%] border border-[#2F3137]/[12%] p-[6px] rounded-full"
+                            aria-label="share-icon">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.5818 4.91373C15.1552 6.0072 16.2408 7.74573 16.461 9.75173"
+                                    stroke="#949698" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M2.98544 9.79107C3.18998 7.79293 4.25984 6.0544 5.81744 4.95307"
+                                    stroke="#949698" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M6.6828 16.5328C7.59533 16.9969 8.63373 17.2565 9.7272 17.2565C10.7813 17.2565 11.7725 17.0205 12.6615 16.5879"
+                                    stroke="#949698" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M9.72719 6.11733C10.935 6.11733 11.9141 5.13821 11.9141 3.9304C11.9141 2.72259 10.935 1.74347 9.72719 1.74347C8.51938 1.74347 7.54025 2.72259 7.54025 3.9304C7.54025 5.13821 8.51938 6.11733 9.72719 6.11733Z"
+                                    stroke="#949698" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M4.03959 15.7304C5.2474 15.7304 6.22653 14.7513 6.22653 13.5435C6.22653 12.3357 5.2474 11.3565 4.03959 11.3565C2.83178 11.3565 1.85266 12.3357 1.85266 13.5435C1.85266 14.7513 2.83178 15.7304 4.03959 15.7304Z"
+                                    stroke="#949698" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M15.3204 15.7304C16.5282 15.7304 17.5074 14.7513 17.5074 13.5435C17.5074 12.3357 16.5282 11.3565 15.3204 11.3565C14.1126 11.3565 13.1335 12.3357 13.1335 13.5435C13.1335 14.7513 14.1126 15.7304 15.3204 15.7304Z"
+                                    stroke="#949698" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </div>
+                        <div class="bg-[#2F3137]/[3%] border border-[#2F3137]/[12%] p-[6px] rounded-full"
+                            aria-label="more-icon">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.05331 7.92667C3.18798 7.92667 2.47998 8.63467 2.47998 9.5C2.47998 10.3653 3.18798 11.0733 4.05331 11.0733C4.91865 11.0733 5.62665 10.3653 5.62665 9.5C5.62665 8.63467 4.91865 7.92667 4.05331 7.92667Z"
+                                    stroke="#949698" stroke-width="1.5" />
+                                <path
+                                    d="M15.0667 7.92667C14.2013 7.92667 13.4933 8.63467 13.4933 9.5C13.4933 10.3653 14.2013 11.0733 15.0667 11.0733C15.932 11.0733 16.64 10.3653 16.64 9.5C16.64 8.63467 15.932 7.92667 15.0667 7.92667Z"
+                                    stroke="#949698" stroke-width="1.5" />
+                                <path
+                                    d="M9.56 7.92667C8.69466 7.92667 7.98666 8.63467 7.98666 9.5C7.98666 10.3653 8.69466 11.0733 9.56 11.0733C10.4253 11.0733 11.1333 10.3653 11.1333 9.5C11.1333 8.63467 10.4253 7.92667 9.56 7.92667Z"
+                                    stroke="#949698" stroke-width="1.5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end title information -->
+
+            <!-- spesification -->
+            <div class="flex flex-wrap gap-5" aria-label="spesification">
+                <!-- point 1 -->
+                <div class="relative flex gap-x-[14px] bg-[#2F3137]/[2%] border border-[#2F3137]/[5%] rounded-xl w-max pl-6 py-5 overflow-hidden"
+                    aria-label="spesification-point">
+                    <div>
+                        <p class="text-lg">Kondisi</p>
+                        <h2 class="text-2xl font-semibold">Bekas</h2>
+                    </div>
+                    <svg class="-translate-y-5" width="36" height="52" viewBox="0 0 36 52" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M36.19 2.60334H19.81C14 2.60334 12.7167 5.49667 11.97 9.04334L9.33334 21.6667H46.6667L44.03 9.04334C43.2833 5.49667 42 2.60334 36.19 2.60334Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M51.31 42.2467C51.5667 44.9767 49.3734 47.3333 46.5734 47.3333H42.1867C39.6667 47.3333 39.3167 46.26 38.8734 44.93L38.4067 43.53C37.7534 41.6167 37.3334 40.3333 33.9734 40.3333H22.0267C18.6667 40.3333 18.1767 41.78 17.5934 43.53L17.1267 44.93C16.6834 46.26 16.3334 47.3333 13.8134 47.3333H9.42669C6.62669 47.3333 4.43336 44.9767 4.69003 42.2467L5.99669 28.0367C6.32336 24.5367 7.00003 21.6667 13.1134 21.6667H42.8867C49 21.6667 49.6767 24.5367 50.0034 28.0367L51.31 42.2467Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M9.33333 14.6667H7" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M28 3V7.66667" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M24.5 7.66667H31.5" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M14 31H21" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M35 31H42" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <!-- point 2 -->
+                <div class="relative flex gap-x-[14px] bg-[#2F3137]/[2%] border border-[#2F3137]/[5%] rounded-xl w-max pl-6 py-5 overflow-hidden"
+                    aria-label="spesification-point">
+                    <div>
+                        <p class="text-lg">Tahun</p>
+                        <h2 class="text-2xl font-semibold">2008</h2>
+                    </div>
+                    <svg class="-translate-y-5" width="37" height="52" viewBox="0 0 37 52" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.6667 0.666668V7.66667" stroke="#D2D3D4" stroke-width="3.5" stroke-miterlimit="10"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M37.3333 0.666668V7.66667" stroke="#D2D3D4" stroke-width="3.5" stroke-miterlimit="10"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M8.16667 17.21H47.8333" stroke="#D2D3D4" stroke-width="3.5" stroke-miterlimit="10"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M49 15.8333V35.6667C49 42.6667 45.5 47.3333 37.3333 47.3333H18.6667C10.5 47.3333 7 42.6667 7 35.6667V15.8333C7 8.83333 10.5 4.16666 18.6667 4.16666H37.3333C45.5 4.16666 49 8.83333 49 15.8333Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M27.9895 27.9667H28.0104" stroke="#D2D3D4" stroke-width="4.66667"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M19.3534 27.9667H19.3743" stroke="#D2D3D4" stroke-width="4.66667"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M19.3534 34.9667H19.3743" stroke="#D2D3D4" stroke-width="4.66667"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <!-- point 3 -->
+                <div class="relative flex gap-x-[14px] bg-[#2F3137]/[2%] border border-[#2F3137]/[5%] rounded-xl w-max pl-6 py-5 overflow-hidden"
+                    aria-label="spesification-point">
+                    <div>
+                        <p class="text-lg">Odo</p>
+                        <h2 class="text-2xl font-semibold">20,000</h2>
+                    </div>
+                    <svg class="-translate-y-5" width="40" height="52" viewBox="0 0 40 52" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M44.66 41.5C48.79 37.3 51.3333 31.5133 51.3333 25.1667C51.3333 12.2867 40.88 1.83334 28 1.83334C15.12 1.83334 4.66667 12.2867 4.66667 25.1667C4.66667 31.5133 7.18666 37.2533 11.2933 41.4767"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M28 46.1667C32.3557 46.1667 35.8867 42.6357 35.8867 38.28C35.8867 33.9243 32.3557 30.3933 28 30.3933C23.6443 30.3933 20.1133 33.9243 20.1133 38.28C20.1133 42.6357 23.6443 46.1667 28 46.1667Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M35.5833 24H37.3333C39.2467 24 40.8333 22.4367 40.8333 20.5C40.8333 18.5867 39.2467 17 37.3333 17C35.42 17 33.8333 18.5633 33.8333 20.5V22.25C33.8333 23.2067 34.6267 24 35.5833 24Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <!-- point 4 -->
+                <div class="relative flex gap-x-[14px] bg-[#2F3137]/[2%] border border-[#2F3137]/[5%] rounded-xl w-max pl-6 py-5 overflow-hidden"
+                    aria-label="spesification-point">
+                    <div>
+                        <p class="text-lg">Warna</p>
+                        <h2 class="text-2xl font-semibold">Kuning</h2>
+                    </div>
+                    <svg class="-translate-y-5" width="37" height="51" viewBox="0 0 37 51" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_225)">
+                            <path
+                                d="M47.2034 31.3067L39.13 39.38C33.46 45.05 31.5234 44.9567 25.9234 39.38L12.9267 26.3833C8.40003 21.8567 7.2567 18.8467 12.9267 13.1767L21 5.10332C27.0434 -0.940009 29.68 0.576657 34.2067 5.10332L47.2034 18.1C52.78 23.7 53.2467 25.2633 47.2034 31.3067Z"
+                                stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M11.1999 34.1766L12.7399 36.72C14.9099 40.3366 13.2299 43.3 9.00659 43.3C4.78326 43.3 3.10326 40.3366 5.27326 36.72L6.81326 34.1766C8.02659 32.17 10.0099 32.17 11.1999 34.1766Z"
+                                stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M51.3333 23.56C38.36 20.0367 24.6867 19.92 11.6667 23.2567L10.5 23.56"
+                                stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_225">
+                                <rect width="56" height="56" fill="white" transform="matrix(-1 0 0 1 56 -5)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+
+                <!-- point 5 -->
+                <div class="relative flex gap-x-[14px] bg-[#2F3137]/[2%] border border-[#2F3137]/[5%] rounded-xl w-max pl-6 py-5 overflow-hidden"
+                    aria-label="spesification-point">
+                    <div>
+                        <p class="text-lg">Mesin</p>
+                        <h2 class="text-2xl font-semibold">1997cc</h2>
+                    </div>
+                    <svg class="-translate-y-5" width="32" height="52" viewBox="0 0 32 52" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M33.9501 0.666668H22.05C17.85 0.666668 16.9167 2.76669 16.3801 5.35669L14.4667 14.5033H41.5334L39.62 5.35669C39.0834 2.76669 38.1501 0.666668 33.9501 0.666668Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M44.8933 29.4134C45.08 31.3967 43.4933 33.1001 41.4633 33.1001H38.29C36.47 33.1001 36.2133 32.3301 35.8867 31.3501L35.5367 30.3466C35.07 28.9699 34.7667 28.0366 32.3167 28.0366H23.66C21.2333 28.0366 20.86 29.0866 20.44 30.3466L20.09 31.3501C19.7633 32.3067 19.5067 33.1001 17.6867 33.1001H14.5133C12.4833 33.1001 10.8967 31.3967 11.0833 29.4134L12.04 19.1001C12.2733 16.5567 12.7633 14.48 17.1966 14.48H38.78C43.2133 14.48 43.7033 16.5567 43.9367 19.1001L44.8933 29.4134Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M14.4667 9.41667H12.7633" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M17.85 21.27H22.9133" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M33.0866 21.27H38.15" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M28 35.6667V38" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M28 45V47.3333" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M6.99999 38L4.66666 47.3333" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <!-- point 6 -->
+                <div class="relative flex gap-x-[14px] bg-[#2F3137]/[2%] border border-[#2F3137]/[5%] rounded-xl w-max pl-6 py-5 overflow-hidden"
+                    aria-label="spesification-point">
+                    <div>
+                        <p class="text-lg">Transmisi</p>
+                        <h2 class="text-2xl font-semibold">Auto</h2>
+                    </div>
+                    <svg class="-translate-y-5" width="32" height="52" viewBox="0 0 32 52" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.3333 42.6667C23.3333 45.244 25.4227 47.3333 28 47.3333C30.5773 47.3333 32.6667 45.244 32.6667 42.6667C32.6667 40.0893 30.5773 38 28 38C25.4227 38 23.3333 40.0893 23.3333 42.6667Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M4.66667 42.6667C4.66667 45.244 6.756 47.3333 9.33333 47.3333C11.9107 47.3333 14 45.244 14 42.6667C14 40.0893 11.9107 38 9.33333 38C6.756 38 4.66667 40.0893 4.66667 42.6667Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M23.3333 5.33334C23.3333 7.91067 25.4227 10 28 10C30.5773 10 32.6667 7.91067 32.6667 5.33334C32.6667 2.75601 30.5773 0.666672 28 0.666672C25.4227 0.666671 23.3333 2.75601 23.3333 5.33334Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M28 10L28 38" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M46.6667 38L46.6667 28.6667C46.6667 24 44.3333 21.6667 39.6667 21.6667L16.3333 21.6667C11.6667 21.6667 9.33332 24 9.33332 28.6667L9.33332 38"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <!-- point 7 -->
+                <div class="relative flex gap-x-[14px] bg-[#2F3137]/[2%] border border-[#2F3137]/[5%] rounded-xl w-max pl-6 py-5 overflow-hidden"
+                    aria-label="spesification-point">
+                    <div>
+                        <p class="text-lg">Pajak</p>
+                        <h2 class="text-2xl font-semibold">Hidup</h2>
+                    </div>
+                    <svg class="-translate-y-5" width="32" height="52" viewBox="0 0 32 52" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.66667 12.3333V45C4.66667 46.9367 6.85995 48.0333 8.39995 46.8667L12.39 43.88C13.3233 43.18 14.63 43.2733 15.47 44.1133L19.3433 48.01C20.2533 48.92 21.7467 48.92 22.6567 48.01L26.5767 44.09C27.3934 43.2733 28.7 43.18 29.61 43.88L33.6001 46.8667C35.1401 48.01 37.3333 46.9133 37.3333 45V5.33334C37.3333 2.76667 39.4333 0.666672 42 0.666672H16.3333H14C7.00001 0.666672 4.66667 4.84334 4.66667 10V12.3333Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M14 17H28" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M15.75 26.3333H26.25" stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <!-- point 8 -->
+                <div class="relative flex gap-x-[14px] bg-[#2F3137]/[2%] border border-[#2F3137]/[5%] rounded-xl w-max pl-6 py-5 overflow-hidden"
+                    aria-label="spesification-point">
+                    <div>
+                        <p class="text-lg">Seat</p>
+                        <h2 class="text-2xl font-semibold">5</h2>
+                    </div>
+                    <svg class="-translate-y-5" width="36" height="52" viewBox="0 0 36 52" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M28.3733 21.3633C28.14 21.34 27.86 21.34 27.6033 21.3633C22.05 21.1767 17.64 16.6267 17.64 11.0267C17.64 5.31001 22.26 0.666672 28 0.666672C33.7167 0.666672 38.36 5.31001 38.36 11.0267C38.3367 16.6267 33.9267 21.1767 28.3733 21.3633Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M16.7067 29.9733C11.06 33.7533 11.06 39.9133 16.7067 43.67C23.1233 47.9633 33.6467 47.9633 40.0633 43.67C45.71 39.89 45.71 33.73 40.0633 29.9733C33.67 25.7033 23.1467 25.7033 16.7067 29.9733Z"
+                            stroke="#D2D3D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <!-- end spesification -->
+
+            <!-- description & technical spesifications -->
+            <div class="flex flex-col gap-y-6 p-4 rounded-[40px] border border-[#F0F0F0] pb-24"
+                aria-label="description & technical spesifications">
+                <div class="flex items-center rounded-full bg-[#2F3137]/[3.5%] px-5 py-4" aria-label="tabs">
+                    <div class="rounded-full bg-white w-1/2 px-3 py-4" aria-activedescendant="description-tab">
+                        <p class="text-xl font-semibold text-center">Descriptions</p>
+                    </div>
+                    <div class="rounded-full w-1/2 px-3 py-4" aria-activedescendant="description-tab">
+                        <p class="text-xl font-semibold text-center text-[#2F3137]/[60%]">Technical Spesifications</p>
+                    </div>
+                </div>
+
+                <div class="space-y-[55px] px-4" aria-label="tab-content">
+                    <div class="text-xl space-y-4">
+                        <h3 class="text-xl">Spec cars :</h3>
+                        <ul class="space-y-4">
+                            <li>-Odo 20K</li>
+                            <li>-Pajak bulan 10</li>
+                            <li>-Nik 2018</li>
+                            <li>-Yellow (warna Favorite)</li>
+                        </ul>
+                    </div>
+                    <div class="text-xl space-y-4">
+                        <h3 class="text-xl">Feature Car:</h3>
+                        <ul class="space-y-4">
+                            <li>-Speedometer 6WB Digital</li>
+                            <li>-Facelift / LCi luxury edition</li>
+                            <li>-Park sensor + Rear Camera</li>
+                            <li>-Ac dual Zone</li>
+                            <li>-Rear wheel drive</li>
+                            <li>-Widescreen LCD Display</li>
+                            <li>-Auto start stop engine</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end description & technical spesifications -->
+        </section>
+        <!-- end content -->
+
+        <!-- footer -->
+        <footer class="fixed left-0 right-0 bottom-0" aria-label="sticky-footer">
+            <div
+                class="flex items-center justify-between max-w-[955px] mx-auto bg-white px-6 py-7 border border-[#F0F0F0] rounded-t-[32px]">
+                <div class="flex items-center gap-x-3">
+                    <img src="./assets/image/profile.png" class="size-16 rounded-full" width="64" height="64"
+                        alt="profile-company-img">
+                    <h2 class="text-xl font-semibold !leading-[24px]">BMW Motors <br>
+                        Jakarta</h2>
+                </div>
+                <div class="flex items-center gap-x-3" aria-label="badge-group">
+                    <!-- dealer badge -->
+                    <div
+                        class="flex items-center gap-x-1 rounded-full px-2 py-[6px] bg-[#F9FAFA] border border-[#2F3137]/[8%]">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.62666 12.7L10.64 13.7134L12.6667 11.6867" stroke="#949698"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M8.10667 7.24665C8.04 7.23998 7.96 7.23998 7.88667 7.24665C6.3 7.19331 5.04 5.89331 5.04 4.29331C5.03334 2.65998 6.36 1.33331 7.99334 1.33331C9.62667 1.33331 10.9533 2.65998 10.9533 4.29331C10.9533 5.89331 9.68667 7.19331 8.10667 7.24665Z"
+                                stroke="#949698" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M7.99333 14.54C6.78 14.54 5.57333 14.2333 4.65333 13.62C3.04 12.54 3.04 10.78 4.65333 9.70668C6.48666 8.48002 9.49333 8.48002 11.3267 9.70668"
+                                stroke="#949698" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <p class="text-xs">Dealer</p>
+                    </div>
+                    <!-- end dealer badge -->
+
+                    <!-- verify badge -->
+                    <div
+                        class="flex items-center gap-x-1 rounded-full px-2 py-[6px] bg-[#F9FAFA] border border-[#2F3137]/[8%]">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.3733 7.16L13.4667 6.10667C13.2933 5.90667 13.1533 5.53333 13.1533 5.26667V4.13333C13.1533 3.42667 12.5733 2.84666 11.8667 2.84666H10.7333C10.4733 2.84666 10.0933 2.70667 9.89333 2.53333L8.84 1.62667C8.38 1.23333 7.62666 1.23333 7.16 1.62667L6.11333 2.54C5.91333 2.70667 5.53333 2.84666 5.27333 2.84666H4.12C3.41333 2.84666 2.83333 3.42667 2.83333 4.13333V5.27333C2.83333 5.53333 2.69333 5.90667 2.52666 6.10667L1.62666 7.16666C1.24 7.62666 1.24 8.37333 1.62666 8.83333L2.52666 9.89333C2.69333 10.0933 2.83333 10.4667 2.83333 10.7267V11.8667C2.83333 12.5733 3.41333 13.1533 4.12 13.1533H5.27333C5.53333 13.1533 5.91333 13.2933 6.11333 13.4667L7.16666 14.3733C7.62666 14.7667 8.38 14.7667 8.84666 14.3733L9.9 13.4667C10.1 13.2933 10.4733 13.1533 10.74 13.1533H11.8733C12.58 13.1533 13.16 12.5733 13.16 11.8667V10.7333C13.16 10.4733 13.3 10.0933 13.4733 9.89333L14.38 8.84C14.7667 8.38 14.7667 7.62 14.3733 7.16ZM10.7733 6.74L7.55333 9.96C7.46 10.0533 7.33333 10.1067 7.2 10.1067C7.06666 10.1067 6.94 10.0533 6.84666 9.96L5.23333 8.34667C5.04 8.15333 5.04 7.83333 5.23333 7.64C5.42666 7.44666 5.74666 7.44666 5.94 7.64L7.2 8.9L10.0667 6.03333C10.26 5.84 10.58 5.84 10.7733 6.03333C10.9667 6.22667 10.9667 6.54666 10.7733 6.74Z"
+                                fill="#3775F1" />
+                        </svg>
+
+                        <p class="text-xs">Terverfikasi</p>
+                    </div>
+                    <!-- end vefiry badge -->
+
+                    <!-- location badge -->
+                    <div
+                        class="flex items-center gap-x-1 rounded-full px-2 py-[6px] bg-[#F9FAFA] border border-[#2F3137]/[8%]">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8 8.95334C9.14875 8.95334 10.08 8.02209 10.08 6.87334C10.08 5.72458 9.14875 4.79333 8 4.79333C6.85125 4.79333 5.92 5.72458 5.92 6.87334C5.92 8.02209 6.85125 8.95334 8 8.95334Z"
+                                stroke="#949698" />
+                            <path
+                                d="M2.41333 5.65998C3.72667 -0.113352 12.28 -0.106685 13.5867 5.66665C14.3533 9.05331 12.2467 11.92 10.4 13.6933C9.06 14.9866 6.94 14.9866 5.59333 13.6933C3.75333 11.92 1.64667 9.04665 2.41333 5.65998Z"
+                                stroke="#949698" />
+                        </svg>
+                        <p class="text-xs">Jakarta</p>
+                    </div>
+                    <!-- end location badge -->
+                </div>
+
+                <div class="flex items-center gap-x-8" aria-label="cta">
+
+                    <!-- like icon -->
+                    <div class="grid place-items-center bg-[#2F3137]/[3%] p-[10px] rounded-full">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_1_161" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="24" height="24">
+                                <rect width="24" height="24" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_1_161)">
+                                <path
+                                    d="M12.0001 20.3249C11.7668 20.3249 11.5293 20.2832 11.2876 20.1999C11.046 20.1166 10.8335 19.9832 10.6501 19.7999L8.92512 18.2249C7.15845 16.6082 5.56262 15.0041 4.13762 13.4124C2.71262 11.8207 2.00012 10.0666 2.00012 8.1499C2.00012 6.58324 2.52512 5.2749 3.57512 4.2249C4.62512 3.1749 5.93345 2.6499 7.50012 2.6499C8.38345 2.6499 9.21679 2.8374 10.0001 3.2124C10.7835 3.5874 11.4501 4.0999 12.0001 4.7499C12.5501 4.0999 13.2168 3.5874 14.0001 3.2124C14.7835 2.8374 15.6168 2.6499 16.5001 2.6499C18.0668 2.6499 19.3751 3.1749 20.4251 4.2249C21.4751 5.2749 22.0001 6.58324 22.0001 8.1499C22.0001 10.0666 21.2918 11.8249 19.8751 13.4249C18.4585 15.0249 16.8501 16.6332 15.0501 18.2499L13.3501 19.7999C13.1668 19.9832 12.9543 20.1166 12.7126 20.1999C12.471 20.2832 12.2335 20.3249 12.0001 20.3249ZM11.0501 6.7499C10.5668 6.06657 10.0501 5.54574 9.50012 5.1874C8.95012 4.82907 8.28345 4.6499 7.50012 4.6499C6.50012 4.6499 5.66679 4.98324 5.00012 5.6499C4.33346 6.31657 4.00012 7.1499 4.00012 8.1499C4.00012 9.01657 4.30845 9.9374 4.92512 10.9124C5.54179 11.8874 6.27929 12.8332 7.13762 13.7499C7.99595 14.6666 8.87929 15.5249 9.78762 16.3249C10.696 17.1249 11.4335 17.7832 12.0001 18.2999C12.5668 17.7832 13.3043 17.1249 14.2126 16.3249C15.121 15.5249 16.0043 14.6666 16.8626 13.7499C17.721 12.8332 18.4585 11.8874 19.0751 10.9124C19.6918 9.9374 20.0001 9.01657 20.0001 8.1499C20.0001 7.1499 19.6668 6.31657 19.0001 5.6499C18.3335 4.98324 17.5001 4.6499 16.5001 4.6499C15.7168 4.6499 15.0501 4.82907 14.5001 5.1874C13.9501 5.54574 13.4335 6.06657 12.9501 6.7499C12.8335 6.91657 12.6918 7.04157 12.5251 7.1249C12.3585 7.20824 12.1835 7.2499 12.0001 7.2499C11.8168 7.2499 11.6418 7.20824 11.4751 7.1249C11.3085 7.04157 11.1668 6.91657 11.0501 6.7499Z"
+                                    fill="#949698" />
+                            </g>
+                        </svg>
+                    </div>
+                    <!-- end like icon -->
+
+                    <button class="text-white font-bold bg-[#3775F1] rounded-full px-16 py-5"
+                        aria-label="cta-action">
+                        Contact
+                    </button>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </main>
+</body>
+
+</html>
