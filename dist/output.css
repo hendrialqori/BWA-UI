@@ -835,18 +835,14 @@ video {
   border-color: rgb(47 49 55 / 8%);
 }
 
-.border-\[\#F0F0F0\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(240 240 240 / var(--tw-border-opacity));
-}
-
-.border-primary-blue {
-  border-color: var(--primary-blue);
-}
-
 .border-\[\#3775F1\] {
   --tw-border-opacity: 1;
   border-color: rgb(55 117 241 / var(--tw-border-opacity));
+}
+
+.border-\[\#F0F0F0\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(240 240 240 / var(--tw-border-opacity));
 }
 
 .bg-\[\#2F3137\]\/20 {
@@ -869,6 +865,15 @@ video {
   background-color: rgb(47 49 55 / 3.5%);
 }
 
+.bg-\[\#3775F1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 117 241 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#3775F1\]\/5 {
+  background-color: rgb(55 117 241 / 0.05);
+}
+
 .bg-\[\#F9FAFA\] {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 250 / var(--tw-bg-opacity));
@@ -879,10 +884,6 @@ video {
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 
-.bg-primary-blue {
-  background-color: var(--primary-blue);
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -890,15 +891,6 @@ video {
 
 .bg-white\/\[12\%\] {
   background-color: rgb(255 255 255 / 12%);
-}
-
-.bg-\[\#3775F1\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 117 241 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#3775F1\]\/5 {
-  background-color: rgb(55 117 241 / 0.05);
 }
 
 .object-contain {
@@ -1063,12 +1055,25 @@ video {
   line-height: 24px !important;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
 .text-\[\#2F3137\]\/40 {
   color: rgb(47 49 55 / 0.4);
 }
 
 .text-\[\#2F3137\]\/\[60\%\] {
   color: rgb(47 49 55 / 60%);
+}
+
+.text-\[\#3775F1\] {
+  --tw-text-opacity: 1;
+  color: rgb(55 117 241 / var(--tw-text-opacity));
 }
 
 .text-\[\#7D7E82\] {
@@ -1086,18 +1091,14 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-primary-blue {
-  color: var(--primary-blue);
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#3775F1\] {
+.text-\[\#8F9499\] {
   --tw-text-opacity: 1;
-  color: rgb(55 117 241 / var(--tw-text-opacity));
+  color: rgb(143 148 153 / var(--tw-text-opacity));
 }
 
 .backdrop-blur-\[10px\] {
